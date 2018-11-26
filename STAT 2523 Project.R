@@ -19,3 +19,11 @@ rownames(throws_data) = c("Ian Throws 1", "Ian Throws 2", "Ian Throws 3",
                           "Ben Throws 1", "Ben Throws 2", "Ben Throws 3",
                           "Isaac Throws 1", "Isaac Throws 2", "Isaac Throws 3")
 throws_data
+avg_ian <- (ian_throws1+ian_throws2+ian_throws3)/3
+avg_ian
+avg_ben <- (ben_throws1+ben_throws2+ben_throws3)/3
+avg_ben
+avg_isaac <- (isaac_throws1+isaac_throws2+isaac_throws3)/3
+avg_isaac
+avg <- (avg_ben+avg_ian+avg_isaac)/3
+
